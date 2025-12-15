@@ -1,0 +1,150 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5%;
+}
+
+.Primer-Contenedor{
+width: 500px;
+height: 600px;
+background-color: white;
+margin-bottom: 15px;
+padding: 10px;
+box-sizing: border-box;
+
+}
+
+
+.Cabeza-Post{
+ width: 100%;
+ height: auto;
+ background-color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+ box-sizing: border-box;
+}
+
+.Mini-izquierda{
+   width: auto;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0;
+}
+
+.Icono-css3{
+  font-size: 2.25em;
+  cursor: pointer; 
+  margin: 4px 4px 0px 0px; 
+}
+
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.Mini-izquierda br{
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+
+
+.Mini-derecha{
+    width: auto;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.Mini-derecha i{
+    font-size: 2.25em;
+    cursor: pointer;
+}
+
+
+.menu{
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.Foto-Perfil{
+    height: auto;
+    margin: 0 -10px;
+    width: calc(100% +20px);
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    display: block;
+   
+}
+
+
+
+.Iconos-Post{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;  
+}
+
+
+
+.icono{
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+    margin: 0 2px;
+    padding: 0;
+}
+
+
+.icono-derecha{
+   position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+   
+
+}
+
+
+.footer{
+   width: 100%;
+   height: auto;
+   background-color: white;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   box-sizing: border-box;
+   padding-right: 10px;
+}
+
+.footer p:first-of-type{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.footer p:last-of-type{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
